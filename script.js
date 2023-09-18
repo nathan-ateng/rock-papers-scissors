@@ -72,7 +72,7 @@ function playGame() {
 
 // create ebdGame  function
 //Does: ends game and clears all text on the dom
-function endGame(totalScores) {
+function endGame(totalScore) {
   totalScores["playerScore"] = 0;
   totalScores["computerScore"] = 0;
   const resultDiv = document.getElementById("result");
